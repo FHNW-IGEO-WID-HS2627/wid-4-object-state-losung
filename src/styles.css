@@ -9,11 +9,10 @@ header {
   color: white;
 }
 
-#loginContainer {
-  font-size: 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+span {
+  color: grey;
+  padding-left: 2px;
+  font-size: 0.75rem;
 }
 
 button {
@@ -23,6 +22,7 @@ button {
   border: 1px solid #007cc3;
   height: 30px;
   margin-top: 10px;
+  margin-left: 8px;
   min-width: 100px;
 }
 
@@ -39,24 +39,25 @@ button:disabled {
 input {
   color: #007cc3;
   padding: 4px;
-  width: 200px;
   height: 20px;
+  width: 100px;
 }
 
-.emphasis {
-  font-style: italic;
-  font-weight: 700;
-  color: #007cc3;
-  text-align: justify;
+h4 {
+  color: #666666;
 }
 
-h2 {
-  color: #007cc3;
-}
-
-.todo {
+#adressEingabe {
+  font-size: 16px;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 5px 10px 5px 5px;
+  flex-direction: row;
+  align-items: end;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 120px;
 }
